@@ -4,4 +4,7 @@ actions:
   pull: ./actions/pull.js
 tests:
   test:
-    action: pull
+    action: fileserver/serve
+    input:
+      filename: 'file:https://github.com/vaastav/Fantasy-Premier-League/tree/master/data'
+      contentType: 'contentType:string'
