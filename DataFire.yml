@@ -7,4 +7,4 @@ tests:
     action: fileserver/serve
     input:
       filename: 'file:https://github.com/vaastav/Fantasy-Premier-League/tree/master/data'
-      contentType: 'contentType:string'
+      contentType: ''
