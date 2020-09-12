@@ -1,0 +1,7 @@
+options:
+  cors: true
+actions:
+  pull: ./actions/pull.js
+tests:
+  test:
+    action: pull
