@@ -6,5 +6,6 @@ tests:
   test:
     action: fileserver/serve
     input:
-      filename: 'file:https://github.com/vaastav/Fantasy-Premier-League/tree/master/data'
-      contentType: ''
+      filename: >-
+        filename:https://github.com/vaastav/Fantasy-Premier-League/tree/master/data
+      contentType: 'contentType:string'
